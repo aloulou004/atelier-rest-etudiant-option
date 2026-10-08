@@ -1,6 +1,7 @@
 target/
 .idea/
 .maven-cache/
+scripts/
 .env*
 *.key
 *.pem

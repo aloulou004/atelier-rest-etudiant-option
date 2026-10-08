@@ -46,12 +46,8 @@ Pour créer un étudiant, le corps JSON doit contenir au moins un identifiant et
 
 ## Vérification et captures
 
-Après le démarrage de Tomcat, exécuter `python scripts/verify_api.py`. Ce programme vérifie les opérations et les codes HTTP, puis supprime ses données de test.
-
-Les captures suivantes proviennent des réponses réelles du service sur Tomcat :
+Les opérations et les codes HTTP ont été vérifiés sur Tomcat. Les captures suivantes proviennent des réponses réelles du service :
 
 - [Liste des options](screenshots/options.png)
 - [Liste des étudiants](screenshots/etudiants.png)
 - [Étudiants de l'option 1 en XML](screenshots/etudiants-option-xml.png)
-
-Pour refaire les captures, installer Playwright et Chrome, puis exécuter `node scripts/capture_screenshots.cjs` pendant que Tomcat fonctionne.
